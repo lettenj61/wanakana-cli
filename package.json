@@ -1,0 +1,21 @@
+{
+  "name": "wanakana-cli",
+  "version": "0.1.0",
+  "description": "Convert Japanese KANA and ROMAJI from command line",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "build": "ncc build -o ./target/wanakana-cli -m index.ts"
+  },
+  "author": "lettenj61 <lettenj61@users.noreply.github.com>",
+  "license": "MIT",
+  "devDependencies": {
+    "@types/node": "^12.12.14",
+    "@zeit/ncc": "^0.20.5",
+    "typescript": "^3.7.2"
+  },
+  "dependencies": {
+    "cac": "^6.5.3",
+    "wanakana": "^4.0.2"
+  }
+}
